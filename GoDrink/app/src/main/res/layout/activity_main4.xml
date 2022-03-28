@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:background="@color/colorpink">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:clickable="true"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageTerdekat"
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+
+                <RelativeLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="4dp"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="Terdekat"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="4dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--card produk1-->
+            <LinearLayout
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="4dp"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/filter" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="Filter"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <!--card produk1-->
+            <LinearLayout
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="4dp"
+                android:orientation="vertical"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/urutkan" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="Urutkan"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <!--card produk1-->
+            <LinearLayout
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="4dp"
+                android:orientation="vertical"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/good" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="Super Partner"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <!--card produk1-->
+            <LinearLayout
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:padding="4dp"
+                android:orientation="vertical"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/start" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="Bintang 4.5+"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListTerdekat1"
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        android:padding="5dp"></ListView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:menu="@menu/item_bottom_navigasi"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+</LinearLayout>

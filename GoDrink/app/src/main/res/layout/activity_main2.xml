@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <!--navigasi bar-->
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorpink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/back"
+                android:clickable="true"
+                android:onClick="back"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorpink"/>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Pesanan"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        </ScrollView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="248dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/card_menu_detail"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/esteh" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="320dp"
+        android:text="ES.TEH - CHOCO CHESEE"
+
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="15dp"
+        android:text="Perpaduan coklat blend dengan chesee cream"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="15dp"
+        android:text="Catatan - Opsional"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/cttn"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="420dp"
+        android:layout_weight="1"
+        android:background="@drawable/search"
+        android:drawableStart="@drawable/note"
+        android:gravity="left|center_vertical"
+        android:hint="Contoh : Banyakin Porsinya"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="#7E7E7E" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="540dp"
+        android:text="Jumlah Pesanan"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="540dp"
+        android:background="@color/white"
+        android:onClick="increment"
+        android:src="@drawable/tambah" />
+
+    <TextView
+        android:id="@+id/quantity_textview"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="540dp"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="540dp"
+        android:background="@color/white"
+        android:onClick="decrement"
+        android:src="@drawable/kurang" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="570dp"
+        android:text="Total Harga"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cttn"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="15sp"
+        android:onClick="ccold"
+        android:paddingLeft="16dp"
+        android:text="cold"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="41dp"
+        android:onClick="Hoot"
+        android:paddingLeft="16dp"
+        android:text="hot"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/price_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="600dp"
+        android:text="Rp. 17000" />
+
+    <TextView
+        android:id="@+id/ongkir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="620dp"
+        android:text="Ongkir : FREE ONGKIR"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorpink"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="CHECKOUT"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
