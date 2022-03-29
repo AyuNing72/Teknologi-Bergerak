@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UAS_06284</string>
+
+    <string name="action_setting">Setting</string>
+    <string-array name="android_dropdown_arays">
+        <item> Pilih </item>
+        <item> Lusin </item>
+        <item> Kilo </item>
+        <item> Pcs </item>
+        <item> Meter </item>
+        <item> Botol </item>
+        <item> Gross </item>
+        <item> Buah </item>
+    </string-array>
+</resources>
