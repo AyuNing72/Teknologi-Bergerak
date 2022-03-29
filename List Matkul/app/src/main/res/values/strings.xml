@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">uts1</string>
+    <string name="Text11">Fakultas Ilmu Computer</string>
+    <string name="Nim">NIM </string>
+    <string name="Nm">Nama </string>
+    <string name="jurjur">Jurusan </string>
+    <string name="ipk">IPK</string>
+    <string name="SKS">Total SKS</string>
+    <string name="Mk"> Jumlah MK</string>
+</resources>
