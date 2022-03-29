@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Responsi</string>
+    <string name="Text11">Fakultas Ilmu Computer</string>
+    <string name="Nim">NIM \t\t\t\t\t\t: \tA12.2019.06284</string>
+    <string name="Nm">Nama \t\t\t\t: \tDewi Putri Ayuningsih</string>
+    <string name="jurjur">Jurusan \t: \t Sistem Informasi - S1</string>
+    <string name="ipk">IPK \t\t\t\t\t\t\t= \t\t  3.54 </string>
+    <string name="SKS">Total SKS \t\t= \t\t 24</string>
+    <string name="Mk"> Jumlah MK \t = \t\t7 </string>
+</resources>
