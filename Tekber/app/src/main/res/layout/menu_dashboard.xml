@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuDashboard" >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="139dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/butter"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#972C0A"
+        android:text="@string/menu_dashboard"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:onClick="masuk"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background1"
+                    android:src="@drawable/hitungg" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:onClick="prof"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background2"
+                    android:src="@drawable/akun" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/akun"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/log"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background1"
+                    android:src="@drawable/akun" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background2"
+                    android:src="@drawable/akun" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background1"
+                    android:src="@drawable/hitungg" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background2"
+                    android:src="@drawable/hitungg" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background1"
+                    android:src="@drawable/hitungg" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background2"
+                    android:src="@drawable/akun" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="98dp"
+            android:layout_height="102dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#D7C3FB"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="5dp"
+            android:focusable="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background1"
+                    android:src="@drawable/akun" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Hello"
+                    android:textAlignment="center"
+                    android:textColor="#BA0312" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitungan Manual"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Helloo</string>
+    <string name="menu1">TOAST</string>
+    <string name="Angka_">0</string>
+    <string name="count__">Count</string>
+    <string name="menu_dashboard">Menu Dashboard</string>
+    <string name="Hello">Toast</string>
+    <string name="hitungan_manual">Hitungan Manual</string>
+    <string name="akun">Profile</string>
+    <string name="log">Lihat Profile</string>
+</resources>
